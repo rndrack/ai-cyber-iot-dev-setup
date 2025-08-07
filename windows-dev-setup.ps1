@@ -31,10 +31,10 @@ choco install -y arduino
 Write-Host "Download LM Studio (Free LLM Runner) from: https://lmstudio.ai/download"
 
 # --- Final Notes ---
-Write-Host "✅ Base setup for Windows AI & IoT Development Complete!"
-Write-Host "🧠 For Python/AI development, open Ubuntu (WSL2) and run the Linux script provided."
-Write-Host "⚙️ Run VSCodium, Obsidian, and Arduino from Start Menu"
-Write-Host "📦 Docker and GitHub CLI available after reboot."
+Write-Host "[CHECKMARK] Base setup for Windows AI & IoT Development Complete!"
+Write-Host "[BRAIN] For Python/AI development, open Ubuntu (WSL2) and run the Linux script provided."
+Write-Host "[GEAR] Run VSCodium, Obsidian, and Arduino from Start Menu"
+Write-Host "[PACKAGE] Docker and GitHub CLI available after reboot."
 
 # --- Optional: Reboot ---
 # Restart-Computer -Force
