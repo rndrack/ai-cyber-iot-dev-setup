@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\root/**)",
+      "Bash(chmod:*)",
+      "Bash(tree:*)",
+      "Bash(grep:*)",
+      "Bash(bash:*)",
+      "Bash(sudo:*)",
+      "Bash(docker:*)",
+      "Bash(./docker-fixes/docker-wsl2-recovery.sh:*)",
+      "Bash(./dev-workflow/dev-env-status.sh:*)",
+      "Bash(./dev-workflow/dev-env-start.sh:*)",
+      "Bash(./install-enhanced-environment.sh:*)",
+      "Bash(service docker:*)",
+      "Bash(./run-all.sh)",
+      "Bash(./enhanced-scripts/linux-db-setup-secure.sh:*)",
+      "Bash(tasklist:*)",
+      "Bash(./enhanced-scripts/linux-dashboard-setup-auth.sh:*)",
+      "Bash(python3:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\pramo\\Downloads\\AI-IoT-Cyber-Dev-Bundle\\templates\\cosmosdb-project"
+    ]
+  }
+}
